@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>分页</title>
+		<link rel="stylesheet" href="./init.css">
+	</head>
+	<body>
+		<ul class="list">
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+		</ul>
+		<!--data-page总条数  data-type列表页类型 -->
+		<div class="page" data-page="100" data-type="1"></div>
+		<script src="./jquery-1.9.1.js"></script>
+		<script src="./page.js"></script>
+		<script>
+			// 回调方法
+			function callback(obj,rel){//obj=>page
+				
+			}
+			
+			$(function(){
+				var url ="";//请求地址
+				page('.page','3',url,callback,'#3142a4');
+			})
+			 
+		</script>
+	</body>
+</html>

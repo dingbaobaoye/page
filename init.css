@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;margin:0;padding:0;
+}
+html,body{
+    min-height:100%;
+    width: 100%;
+}
+a{ text-decoration: none; cursor:pointer; }
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none !important;}
+a:active {text-decoration: none;}
+input,select,button{ outline: none; -webkit-tap-highlight-color: transparent;border:none;}
+input[type="button"], input[type="submit"], input[type="reset"], input[type="text"], input[type="date"]{-webkit-appearance: none;}
+input[type="checkbox"]{ border:1px solid #CCC;}
+input[type="text"],input[type="password"],input[type="hidden"],select{box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
+select,option{ -webkit-appearance:none;}
+textarea{resize:none}
+img{ border:none;}
+dl{margin-bottom:0!important;}
+ul,li,ol,dl{list-style:none!important;}
+.clearfix{}
+.clearfix:before,.clearfix:after{
+    content: "";
+    height:0;
+    overflow: hidden;clear:both;
+    display: block;
+}
+.fl{float:left;}
+.fr{float:right;}
+/*.red{color:#ff6600;}*/
+.label{ white-space: nowrap; }
+
