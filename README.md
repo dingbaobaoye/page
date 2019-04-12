@@ -6,6 +6,6 @@
 			第三个为请求地址url，
 			第四个为回调方法callback，
 			第五个为主色调，
+			page(class,num,url,callback,color);
 	-->
 	
-## page('.zc_page','5','/messArticleController/ajaxGetMessArticleByType.do',callback,'#3142a4');
